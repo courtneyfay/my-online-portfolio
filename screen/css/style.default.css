@@ -169,6 +169,11 @@ div.hobby {
   background-color: #4fbfa8;
   color: #ffffff;
 }
+@media (max-width: 991px) {
+  .hobby i {
+    font-size: 16px;
+  }
+}
 .copyright {
   margin-top: 40px;
   color: #999999;
@@ -227,7 +232,7 @@ div.footer {
 body.disabled-onepage-scroll .onepage-wrapper section {
   min-height: 100%;
   height: auto;
-  color: #4fbfa8;
+  /*color: #4fbfa8;*/
 }
 /* ========================================= */
 /* THEMING OF BOOTSTRAP COMPONENTS           */
@@ -826,6 +831,7 @@ label {
   }
 }
 /* type */
+
 h1,
 h2,
 h3,
@@ -845,31 +851,25 @@ h6,
   /*text-transform: uppercase;*/
   letter-spacing: 0.08em;
 }
-h1,
-.h1 {
+h1, .h1 {
   font-size: 100px;
 }
-h2,
-.h2 {
+h2, .h2 {
   font-size: 36px;
 }
-h3,
-.h3 {
+h3, .h3 {
   font-family: 'Glacial Indifference', sans serif;
   font-size: 31px;
 }
-h4,
-.h4 {
+h4, .h4 {
   font-size: 24px;
 }
-h5,
-.h5 {
+h5, .h5 {
   color: white;
   font-family: 'Glacial Indifference', sans serif;
   font-size: 20px;
 }
-h6,
-.h6 {
+h6, .h6 {
   font-size: 16px;
 }
 h1,
@@ -880,6 +880,23 @@ h3,
 .h3 {
   margin-top: 0;
   margin-bottom: 22px;
+}
+@media (max-width: 991px) {
+  h1, .h1 {
+    font-size: 60px;
+  }
+  h2.heading {
+    margin-bottom: 0;
+  }
+  h6, .h6 {
+    font-size: 12px;
+  }
+  h6.heading {
+    margin-bottom: 2%;
+  }
+  h6.heading:after {
+    margin: 0 auto;
+  }
 }
 p {
   margin: 0 0 22px;
