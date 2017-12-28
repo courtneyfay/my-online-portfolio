@@ -73,6 +73,12 @@ h4.heading:after {
 .img-responsive {
   margin: 0 auto;
 }
+@media (max-width: 991px) {
+  .headshot {
+    content: url("../img/headshot-small.jpg");
+    width: 50%;
+  }
+}
 .box {
   margin-bottom: 30px;
 }
@@ -170,8 +176,14 @@ div.hobby {
   color: #ffffff;
 }
 @media (max-width: 991px) {
-  .hobby i {
+  div.hobby {
     font-size: 16px;
+  }
+  p.social a {
+    border-radius: 20px;
+    height: 30px;
+    font-size: 18px;
+    width: 30px;
   }
 }
 .copyright {
@@ -193,6 +205,10 @@ div.footer {
   .copyright p.credit {
     text-align: center !important;
   }
+  div.footer {
+    margin: 0 auto;
+  }
+
 }
 @media (min-width: 1200px) {
   .copyright {
@@ -892,14 +908,20 @@ h3,
     font-size: 12px;
   }
   h6.heading {
-    margin-bottom: 2%;
+    margin-bottom: 10%;
   }
   h6.heading:after {
+    content: none;
     margin: 0 auto;
   }
 }
 p {
   margin: 0 0 22px;
+}
+@media (max-width: 991px) {
+  p {
+    margin: 0 auto;
+  }
 }
 .lead {
   font-family: 'Glacial Indifference', sans serif;
