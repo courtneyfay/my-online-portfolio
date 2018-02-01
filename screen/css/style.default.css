@@ -61,14 +61,14 @@ section {
   width: 100px;
   height: 1px;
   margin: 20px auto 20px;
-  background: #4fbfa8;
+  background: #009378; /*#4fbfa8;*/
 }
 h4.heading {
   margin-bottom: 20px;
 }
 h4.heading:after {
   margin: 10px auto 20px;
-  background: #4fbfa8;
+  background: #009378; /*#4fbfa8;*/
 }
 .img-responsive {
   margin: 0 auto;
@@ -139,7 +139,7 @@ h4.heading:after {
   width: 100px;
   height: 1px;
   margin: 20px auto 20px;
-  background: #4fbfa8;
+  background: #009378; /*#4fbfa8;*/
 }
 p.social {
   text-align: center;
@@ -165,14 +165,14 @@ p.social a i {
   line-height: 26px;
 }
 p.social a.social {
-  background-color: #4fbfa8;
+  background-color: #009378; /*#4fbfa8;*/
 }
 div.hobby {
   font-size: 30px;
   text-align: center;
 }
 .hobby i {
-  background-color: #4fbfa8;
+  background-color: #009378; /*#4fbfa8;*/
   color: #ffffff;
 }
 @media (max-width: 991px) {
@@ -221,9 +221,12 @@ div.footer {
   }
 }
 #page1 {
-  text-align: center;
-  background-color: #4fbfa8;
+  background-image: url("../img/new_headshot.jpg");
+  background-repeat: no-repeat;
+  background-size: 180vh;
+  /*background-color: #009378; /*#4fbfa8;*/*/
   color: #000;
+  text-align: center;
 }
 #page1 h1,
 #page1 h2,
@@ -277,7 +280,7 @@ body.disabled-onepage-scroll .onepage-wrapper section {
 .nav .open > a:hover,
 .nav .open > a:focus {
   background-color: #eeeeee;
-  border-color: #4fbfa8;
+  border-color: #009378; /*#4fbfa8;*/
 }
 .nav-tabs {
   border-bottom: 1px solid #dddddd;
@@ -303,7 +306,7 @@ body.disabled-onepage-scroll .onepage-wrapper section {
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus {
   color: #ffffff;
-  background-color: #4fbfa8;
+  background-color: #009378; /*#4fbfa8;*/
 }
 .nav-tabs-justified > li > a {
   border-radius: 0;
@@ -530,7 +533,7 @@ body.disabled-onepage-scroll .onepage-wrapper section {
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-  background-color: #4fbfa8;
+  background-color: #009378; /*#4fbfa8;*/
 }
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #888888;
@@ -581,7 +584,7 @@ body {
   background-color: #ffffff;
 }
 a {
-  color: #4fbfa8;
+  color: #009378; /*#4fbfa8;*/
   text-decoration: none;
 }
 a:hover,
@@ -636,16 +639,16 @@ hr {
   border-radius: 0;
 }
 .btn-primary {
-  color: #4fbfa8;
+  color: #009378; /*#4fbfa8;*/
   background-color: #ffffff;
-  border-color: #4fbfa8;
+  border-color: #009378; /*#4fbfa8;*/
 }
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
-  color: #4fbfa8;
+  color: #009378; /*#4fbfa8;*/
   background-color: #ebebeb;
   border-color: #389985;
 }
@@ -670,17 +673,17 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
   background-color: #ffffff;
-  border-color: #4fbfa8;
+  border-color: #009378; /*#4fbfa8;*/
 }
 .btn-primary .badge {
   color: #ffffff;
-  background-color: #4fbfa8;
+  background-color: #009378; /*#4fbfa8;*/
 }
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active,
 .btn-primary.active {
-  background: #4fbfa8;
+  background: #009378; /*#4fbfa8;*/
   color: #ffffff;
 }
 .btn-lg {
@@ -742,7 +745,7 @@ label {
   opacity: 1 !important;
 }
 .form-control:focus {
-  border-color: #4fbfa8;
+  border-color: #009378; /*#4fbfa8;*/
   outline: 0;
   -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(79, 191, 168, 0.6);
   box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(79, 191, 168, 0.6);
@@ -764,14 +767,14 @@ label {
 .pager li > a,
 .pager li > span {
   background-color: #ffffff;
-  border: 1px solid #4fbfa8;
+  border: 1px solid #009378; /*#4fbfa8;*/
   border-radius: 0;
 }
 .pager li > a:hover,
 .pager li > a:focus {
   text-decoration: none;
   color: #fff;
-  background-color: #4fbfa8;
+  background-color: #009378; /*#4fbfa8;*/
 }
 .pager .disabled > a,
 .pager .disabled > a:hover,
@@ -792,7 +795,7 @@ label {
   padding: 6px 12px;
   line-height: 1.42857143;
   text-decoration: none;
-  color: #4fbfa8;
+  color: #009378; /*#4fbfa8;*/
   background-color: #ffffff;
   border: 1px solid #dddddd;
 }
@@ -800,7 +803,7 @@ label {
 .pagination > li > span:hover,
 .pagination > li > a:focus,
 .pagination > li > span:focus {
-  color: #4fbfa8;
+  color: #009378; /*#4fbfa8;*/
   background-color: #bfe8df;
   border-color: #dddddd;
 }
@@ -812,8 +815,8 @@ label {
 .pagination > .active > span:focus {
   z-index: 2;
   color: #ffffff;
-  background-color: #4fbfa8;
-  border-color: #4fbfa8;
+  background-color: #009378; /*#4fbfa8;*/
+  border-color: #009378; /*#4fbfa8;*/
 }
 .pagination > .disabled > span,
 .pagination > .disabled > span:hover,
@@ -943,14 +946,14 @@ p {
   font-style: italic;
 }
 .text-primary {
-  color: #4fbfa8;
+  color: #009378; /*#4fbfa8;*/
 }
 a.text-primary:hover {
   color: #3aa18c;
 }
 .bg-primary {
   color: #fff;
-  background-color: #4fbfa8;
+  background-color: #009378; /*#4fbfa8;*/
 }
 a.bg-primary:hover {
   background-color: #3aa18c;
@@ -963,7 +966,7 @@ blockquote {
   padding: 11px 22px;
   margin: 0 0 22px;
   font-size: 16px;
-  border-left: 5px solid #4fbfa8;
+  border-left: 5px solid #009378; /*#4fbfa8;*/
 }
 blockquote footer,
 blockquote small,
@@ -980,7 +983,7 @@ blockquote .small:before {
 }
 .blockquote-reverse,
 blockquote.pull-right {
-  border-right: 5px solid #4fbfa8;
+  border-right: 5px solid #009378; /*#4fbfa8;*/
 }
 address {
   margin-bottom: 22px;
@@ -995,18 +998,18 @@ address {
   box-shadow: 0 0 0;
 }
 .panel-primary {
-  border-color: #4fbfa8;
+  border-color: #009378; /*#4fbfa8;*/
 }
 .panel-primary > .panel-heading {
   color: #ffffff;
-  background-color: #4fbfa8;
-  border-color: #4fbfa8;
+  background-color: #009378; /*#4fbfa8;*/
+  border-color: #009378; /*#4fbfa8;*/
 }
 .panel-primary > .panel-heading + .panel-collapse .panel-body {
-  border-top-color: #4fbfa8;
+  border-top-color: #009378; /*#4fbfa8;*/
 }
 .panel-primary > .panel-footer + .panel-collapse .panel-body {
-  border-bottom-color: #4fbfa8;
+  border-bottom-color: #009378; /*#4fbfa8;*/
 }
 .panel-primary .panel-title {
   font-weight: 300;
@@ -1023,7 +1026,7 @@ a.badge:focus {
 }
 a.list-group-item.active > .badge,
 .nav-pills > .active > a > .badge {
-  color: #4fbfa8;
+  color: #009378; /*#4fbfa8;*/
   background-color: #ffffff;
 }
 .nav-pills > li > a > .badge {
