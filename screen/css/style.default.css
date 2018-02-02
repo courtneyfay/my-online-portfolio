@@ -33,11 +33,12 @@ section {
   overflow: hidden;
 }
 .section-gray {
-  background: #eeeeee;
+  background: #333333;
+  opacity: 0.5;
 }
 @media (max-width: 991px) {
   .section-gray {
-    background: #eeeeee;
+    background: #333333;
   }
 }
 .overlay {
@@ -75,6 +76,7 @@ h4.heading:after {
 }
 .img-responsive {
   margin: 0 auto;
+  max-height: 450px;
 }
 @media (max-width: 991px) {
   .headshot {
@@ -149,7 +151,7 @@ p.social {
   margin-top: 20px;
 }
 p.social a {
-  margin: 0 10px 0 0;
+  margin: 40px 10px 0 0;
   color: #fff;
   display: inline-block;
   width: 50px;
@@ -204,6 +206,9 @@ div.footer {
   margin: 100px 0 0 0;
   text-align: center;
 }
+div.link {
+  margin: 20px 0;
+}
 @media (max-width: 991px) {
   .copyright p.credit {
     text-align: center !important;
@@ -251,6 +256,16 @@ div.footer {
   border-radius: 20px;
   z-index: 3;
 }
+#page2 {
+  background-image: url("../img/skills_background3.jpeg");
+  background-repeat: no-repeat;
+  background-size: 190vh;
+}
+#page3 {
+  background-image: url("../img/about_me_background.jpg");
+  background-repeat: no-repeat;
+  background-size: 190vh;
+}
 .project {
   color: #000;
   text-align: center;
@@ -261,7 +276,7 @@ div.footer {
   background-size: 190vh;
 }
 #project-4 {
-  background-image: url("../img/project-4-background2.jpeg");
+  background-image: url("../img/project-4-background3.jpeg");
   background-repeat: no-repeat;
   background-size: 190vh;
 }
@@ -271,7 +286,7 @@ div.footer {
   background-size: 190vh;
 }
 #project-2 {
-  background-image: url("../img/project-2-background2.jpeg");
+  background-image: url("../img/project-2-background3.jpeg");
   background-repeat: no-repeat;
   background-size: 190vh;
 }
@@ -965,6 +980,7 @@ p {
 .link-icons {
   color: white;
 }
+
 @media (min-width: 768px) {
   .lead {
     font-size: 22px;
@@ -979,6 +995,8 @@ p {
     color: #FFF;
     font-family: 'Glacial Indifference', sans serif;
     font-size: 18px;
+    margin: 0;
+    padding: 0;
     text-align: center;
   }
 }
