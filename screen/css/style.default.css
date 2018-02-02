@@ -258,7 +258,7 @@ div.link {
   z-index: 3;
 }
 #skills {
-  background-image: url("../img/skills_background3.jpeg");
+  background-image: url("../img/skills_background.jpeg");
   background-repeat: no-repeat;
   background-size: 190vh;
 }
@@ -272,27 +272,27 @@ div.link {
   text-align: center;
 }
 #project-5 {
-  background-image: url("../img/project-5-background.jpg");
+  background-image: url("../img/project_5_background.jpg");
   background-repeat: no-repeat;
   background-size: 190vh;
 }
 #project-4 {
-  background-image: url("../img/project-4-background3.jpeg");
+  background-image: url("../img/project_4_background.jpeg");
   background-repeat: no-repeat;
   background-size: 190vh;
 }
 #project-3 {
-  background-image: url("../img/project-3-background.jpeg");
+  background-image: url("../img/project_3_background.jpeg");
   background-repeat: no-repeat;
   background-size: 190vh;
 }
 #project-2 {
-  background-image: url("../img/project-2-background3.jpeg");
+  background-image: url("../img/project_2_background.jpeg");
   background-repeat: no-repeat;
   background-size: 190vh;
 }
 #project-1 {
-  background-image: url("../img/project-1-background.jpg");
+  background-image: url("../img/project_1_background.jpg");
   background-repeat: no-repeat;
   background-size: 190vh;
 }
