@@ -55,6 +55,9 @@ section {
   text-align: center;
   margin-bottom: 40px;
 }
+#white-heading {
+  color: #FFF;
+}
 .heading:after {
   content: " ";
   display: block;
@@ -254,6 +257,26 @@ div.footer {
 }
 #project-5 {
   background-image: url("../img/project-5-background.jpg");
+  background-repeat: no-repeat;
+  background-size: 190vh;
+}
+#project-4 {
+  background-image: url("../img/project-4-background2.jpeg");
+  background-repeat: no-repeat;
+  background-size: 190vh;
+}
+#project-3 {
+  background-image: url("../img/project-3-background.jpeg");
+  background-repeat: no-repeat;
+  background-size: 190vh;
+}
+#project-2 {
+  background-image: url("../img/project-2-background2.jpeg");
+  background-repeat: no-repeat;
+  background-size: 190vh;
+}
+#project-1 {
+  background-image: url("../img/project-1-background.jpg");
   background-repeat: no-repeat;
   background-size: 190vh;
 }
