@@ -146,12 +146,12 @@ h4.heading:after {
   margin: 20px auto 20px;
   background: #009378; /*#4fbfa8;*/
 }
-p.social {
+div.social {
   text-align: center;
   margin-top: 20px;
 }
-p.social a {
-  margin: 40px 10px 0 0;
+div.social a {
+  margin: 30px 10px 0 0;
   color: #fff;
   display: inline-block;
   width: 50px;
@@ -165,11 +165,11 @@ p.social a {
   transition: all 0.2s ease-out;
   vertical-align: middle;
 }
-p.social a i {
+div.social a i {
   vertical-align: middle;
   line-height: 26px;
 }
-p.social a.social {
+div.social a.social {
   background-color: #009378; /*#4fbfa8;*/
 }
 div.hobby {
@@ -184,7 +184,7 @@ div.hobby {
   div.hobby {
     font-size: 16px;
   }
-  p.social a {
+  div.social a {
     border-radius: 20px;
     height: 30px;
     font-size: 18px;
@@ -202,8 +202,10 @@ div.hobby {
 .copyright p.credit a {
   color: #999999;
 }
-div.footer {
-  margin: 100px 0 0 0;
+footer {
+  background-color: #009378;
+  margin: 200px 0 0 0;
+  padding: 0;
   text-align: center;
 }
 div.link {
@@ -216,7 +218,6 @@ div.link {
   div.footer {
     margin: 0 auto;
   }
-
 }
 @media (min-width: 1200px) {
   .copyright {
@@ -228,7 +229,7 @@ div.link {
     text-align: center !important;
   }
 }
-#page1 {
+#header {
   background-image: url("../img/new_headshot.jpg");
   background-repeat: no-repeat;
   background-size: 190vh;
@@ -236,15 +237,15 @@ div.link {
   color: #000;
   text-align: center;
 }
-#page1 h1,
-#page1 h2,
-#page1 h3 {
+#header h1,
+#header h2,
+#header h3 {
   color: #fff;
 }
-#page1 p {
+#header p {
   font-size: 20px;
 }
-#page1 .icon {
+#header .icon {
   position: absolute;
   bottom: 40px;
   left: 50%;
@@ -256,12 +257,12 @@ div.link {
   border-radius: 20px;
   z-index: 3;
 }
-#page2 {
+#skills {
   background-image: url("../img/skills_background3.jpeg");
   background-repeat: no-repeat;
   background-size: 190vh;
 }
-#page3 {
+#about {
   background-image: url("../img/about_me_background.jpg");
   background-repeat: no-repeat;
   background-size: 190vh;
@@ -375,11 +376,15 @@ body.disabled-onepage-scroll .onepage-wrapper section {
   }
 }
 /* navbar */
+a.navbar {
+  color: #FFF;
+}
 .navbar {
-  font-family: 'Montserrat', sans-serif;
-  min-height: 80px;
-  margin-bottom: 30px;
+  background-color: #333333;
   border-bottom: 1px solid transparent;
+  font-family: 'Glacial Indifference', sans-serif;
+  min-height: 30px;
+  margin: 0; 
 }
 @media (min-width: 768px) {
   .navbar {
@@ -991,7 +996,7 @@ p {
     font-size: 22px;
     text-align: center;
   }
-  .technologies {
+  .sm-description {
     color: #FFF;
     font-family: 'Glacial Indifference', sans serif;
     font-size: 18px;

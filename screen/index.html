@@ -33,13 +33,30 @@
   </head>
 
   <body>
+    <!-- NAVIGATION -->
+    <!-- <div id="undefined-sticky-wrapper" class="sticky-wrapper">
+      <header class="header">
+        <nav class="navbar navbar-custom" role="navigation">
+          <div class="row">
+            <div class="col-md-3">
+              <a href="index.html">COURTNEY FAY</a>
+            </div>
+            <div class="col-md-8">
+              <a href="index.html#project-5">PORTFOLIO</a>
+              <a href="index.html#skills">SKILLS</a>
+              <a href="index.html#about">ABOUT</a>
+              <a href="index.html#about">CONTACT</a>
+            </div>
+          </div>
+        </nav>
+      </header>    
+    </div> -->
+
     <div class="wrapper">
       <div class="main"> 
 
-
-
         <!-- WELCOME  -->
-        <section id="page1">
+        <section id="header">
           <div class="overlay"></div>
             <div class="content">
               <div class="container clearfix">
@@ -59,6 +76,7 @@
           <div class="icon faa-float animated"><i class="fa fa-angle-double-down"></i></div>
         </section>
 
+       
 
         <!-- PORTFOLIO Project 5: JOKEBOT -->
         <section id="project-5" class="project">
@@ -70,8 +88,8 @@
                 <div class="col-md-6 col-sm-12">
                   <h2 class="heading">JOKEBOT</h2>
                   <p class="description">React chatbot with IBM Watson API</p>
-                  <p class="technologies">React components | JSX | Inline CSS styling | Flexbox</p>
-                  <p class="technologies">Webpack | Express.js | Node.js | Heroku</p>
+                  <p class="sm-description">React components | JSX | Inline CSS styling | Flexbox</p>
+                  <p class="sm-description">Webpack | Express.js | Node.js | Heroku</p>
 
                   <!-- Project 5 Links -->
                   <div class="col-md-3 col-sm-0"></div>
@@ -112,8 +130,8 @@
                 <div class="col-md-6 col-sm-12">
                   <h2 id="white-heading" class="heading">RACE CUBE</h2>
                   <p class="description">Mario Kart-style racing game</p>
-                  <p class="technologies">Three.js | Physijs | EJS templating | AJAX | Express.js</p>
-                  <p class="technologies">Node.js | Sequelize | PostgreSQL | Heroku</p>
+                  <p class="sm-description">Three.js | Physijs | EJS templating | AJAX | Express.js</p>
+                  <p class="sm-description">Node.js | Sequelize | PostgreSQL | Heroku</p>
 
                   <!-- Project 4 Links -->
                   <div class="col-md-3 col-sm-0"></div>
@@ -144,8 +162,8 @@
                 <div class="col-md-6 col-sm-12">
                   <h2 id="white-heading" class="heading">SWIPEBITE</h2>
                   <p class="description">Swipe to find nearby food</p>
-                  <p class="technologies">Angular 4 | Passport authorization | Express.js | Node.js</p> 
-                  <p class="technologies">Sequelize | PostgreSQL | Heroku</p>
+                  <p class="sm-description">Angular 4 | Passport authorization | Express.js | Node.js</p> 
+                  <p class="sm-description">Sequelize | PostgreSQL | Heroku</p>
 
                   <!-- Project 3 Links -->
                   <div class="col-md-3 col-sm-0"></div>
@@ -186,8 +204,8 @@
                 <div class="col-md-6 col-sm-12">
                   <h2 class="heading">BOOKME</h2>
                   <p class="description">Get new book recommendations thanks to NLP</p>
-                  <p class="technologies">Bootstrap | JavaScript | jQuery | AJAX | Node.js</p> 
-                  <p class="technologies">Selenium | Mongoose | MongoDB | Mocha</p>
+                  <p class="sm-description">Bootstrap | JavaScript | jQuery | AJAX | Node.js</p> 
+                  <p class="sm-description">Selenium | Mongoose | MongoDB | Mocha</p>
 
                   <!-- Project 2 Links -->
                   <div class="col-md-3 col-sm-0"></div>
@@ -218,7 +236,7 @@
                 <div class="col-md-6 col-sm-12">
                   <h2 id="white-heading" class="heading">2017 CHIP'S CHALLENGE</h2>
                   <p class="description">Hip new skin for a classic computer game</p>
-                  <p class="technologies">HTML5 | CSS3 | JavaScript | GitHub</p>
+                  <p class="sm-description">HTML5 | CSS3 | JavaScript | GitHub</p>
 
                   <!-- Project 1 Links -->
                   <div class="col-md-3 col-sm-0"></div>
@@ -246,7 +264,7 @@
         </section>
 
         <!-- SKILLS -->
-        <section id="page2">
+        <section id="skills">
           <div class="content">
             <div class="container clearfix">
               <div class="row services">
@@ -338,7 +356,7 @@
         </section>
 
         <!-- ABOUT ME -->
-        <section id="page3">
+        <section id="about">
           <div class="content">
             <div class="container clearfix">
               <div class="row">
@@ -349,41 +367,51 @@
 
                   <!-- Linked in summary and slogan -->
                   <p class="lead">I'm a front-end web developer who jumps headfirst into learning new technologies, loves the critical thinking required to solve technical problems, and relishes in finding simple metaphors to explain complex concepts.</p> 
-                  <p class="lead">When I’m not coding, you’ll find me getting my zen on in yoga class, learning how to ride the trees on my snowboard, or reading in a cozy coffee shop.</p>
+                  <p class="lead">When I’m not coding, you’ll find me learning how to ride the trees on my snowboard, getting my zen on in yoga class, or reading in a cozy coffee shop.</p>
 
-                  <!-- Professional links -->
+                  <!-- Professional links: LinkedIn and GitHub -->
                   <h2 class="line-break"></h2>
-                  <p class="social">
+                  <div class="social">
                     <a href="https://www.linkedin.com/in/faycourtney/" title="" class="social" target="_blank">
                       <i class="fa fa-linkedin"></i>
                     </a>
                     <a href="https://github.com/courtneyfay" title="" class="social" target="_blank">
                       <i class="fa fa-github"></i>
                     </a>
-                  </p>
-
+                  </div>
                 </div>
               </div>
+            </div>
 
-              
+            <!-- FOOTER -->
+            <footer class="footer">
+              <div class="row social">
 
-              <!-- FOOTER -->
-              <div class="footer">
-                <p class="social">
-                  <!-- include links to LinkedIn, Github, email, resume -->
-                  
+                <!-- Location, Email Address, and Resume -->
+                <div class="col-md-4">
+                  <a title="" class="social">
+                    <i class="fa fa-map-marker"></i>
+                  </a>
+                  <p class="description">DENVER, CO 80211</p>
+                </div>
+                
+                <div class="col-md-4">
                   <a href="mailto:fay.courtney@gmail.com" title="" class="social">
                     <i class="fa fa-envelope"></i>
                   </a>
+                  <p class="description">FAY.COURTNEY@GMAIL.COM</p>
+                </div>
+                
+                <div class="col-md-4">
                   <a href="./documents/Courtney_Fay_Resume_Feb_2018.docx" title="" class="social" target="_blank">
                     <i class="fa fa-file-text"></i>
                   </a>
-                </p>
-
-                <p>&copy;2017 COURTNEY FAY</p>
+                  <p class="description">RESUME</p>
+                </div>
               </div>
 
-            </div>
+              <p class="sm-description">&copy;2017 COURTNEY FAY</p>
+            </footer>
           </div>
         </section>
 
